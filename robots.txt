@@ -1,0 +1,9 @@
+**Steps:**
+1. Right-click on `public` folder → New File
+2. Name: `robots.txt`
+3. Paste:
+```
+User-agent: *
+Allow: /
+
+Sitemap: https://yourusername.github.io/sitemap.xml
