@@ -33,11 +33,17 @@ jobs:
 
       - name: Build with Next.js
         run: npm run build
-
+      
+      # ➡️ नया Export step यहाँ जोड़ा गया है
+      - name: Export Static Site
+        run: npm run export
+        
+      # ➡️ Upload Artifact step में path को ./out किया गया है
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
+          
 
   deploy:
     environment:
