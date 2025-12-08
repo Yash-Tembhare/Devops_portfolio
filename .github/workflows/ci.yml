@@ -7,9 +7,9 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: write       # Allow GitHub Actions to push changes
-  pages: write          # Required for GitHub Pages deployment
-  id-token: write       # Optional, for OIDC if needed
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
@@ -28,7 +28,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      # Lint step optional, uncomment if needed
+      # Lint step optional
       # - name: Lint Code
       #   run: npm run lint
 
