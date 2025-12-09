@@ -97,7 +97,7 @@ export default function Hero() {
                             <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 to-blue-600/20 rounded-3xl blur-3xl" />
                             <div className="relative bg-slate-800/50 border border-purple-500/30 rounded-3xl overflow-hidden backdrop-blur-sm">
                                 <img
-                                    src="/portrait.jpg"
+                                    src="./portrait.jpg"
                                     alt="Yash Tembhare"
                                     className="w-full h-full object-cover"
                                     onError={(e) => {

@@ -9,7 +9,7 @@ export default function Experience() {
             title: "DevOps & Cloud Engineering Intern",
             company: "Skillected",
             location: "Nagpur",
-            period: "May 2024 – Dec 2024",
+            period: "May 2025 – Dec 2025",
             description: [
                 "Designed and deployed AWS infrastructure (EC2, S3, VPC, IAM) for scalable application environments",
                 "Automated infrastructure provisioning using Terraform, reducing manual setup time by 55%",
@@ -21,7 +21,7 @@ export default function Experience() {
             title: "Technical Educator",
             company: "Guruji Technologies (Nagpur Nagar Parishad - UMANG Scheme)",
             location: "Nagpur",
-            period: "June 2024 – Nov 2024",
+            period: "June 2025 – Nov 2025",
             description: [
                 "Delivered ICT/Robotics and STEM curriculum to PM Shree Primary School students",
                 "Designed hands-on workshops on IoT, programming, and computational thinking",

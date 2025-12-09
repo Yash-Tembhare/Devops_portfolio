@@ -19,7 +19,7 @@ export default function Home() {
 
             <footer className="py-8 text-center border-t border-purple-500/20 bg-slate-900/50">
                 <p className="text-gray-400">
-                    © 2024 Yash Tembhare. Built with Next.js, Tailwind CSS, and Framer Motion.
+                    © 2025 Yash Tembhare. Built with Next.js, Tailwind CSS, and Framer Motion.
                 </p>
                 <p className="text-gray-500 text-sm mt-2">
                     Deployed with CI/CD using GitHub Actions
